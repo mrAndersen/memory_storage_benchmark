@@ -10,10 +10,10 @@ include __DIR__ . '/vendor/autoload.php';
 
 
 $dataset = [
-    'small' => str_repeat("abc", 10),
-    'medium' => str_repeat("abc", 1024),
-    'large' => str_repeat("abc", 1024 * 1024),
-    'extra_large' => str_repeat("abc", 1024 * 1024 * 20)
+    'small' => str_repeat("a", 10),
+    'medium' => str_repeat("a", 1024),
+    'large' => str_repeat("a", 1024 * 1024),
+    'extra_large' => str_repeat("a", 1024 * 1024 * 20)
 ];
 
 function test_client($title, $client, &$dataset)
